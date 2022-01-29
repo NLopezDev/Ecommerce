@@ -16,4 +16,36 @@ function ItemCount() {
     </p>
     );
     
+export default class ItemCount extends Component{
+    constructor(props){
+        super(props);
+        this.state={
+            contador:0,
+        };
+
+        setInterval(() => {
+            this.setState({
+                contador:this.state.contador + 1
+            });
+        }, 1000);
+    }
+
+
+
+render() {
+    return(
+<div>
+<h2>Estado</h2>
+<p>this.state.contador</p>
+</div>
+);
+}
+}
+
+function ItemCount({ stock, initial,  onAdd }) {
+    
+   }
+   
+
+export default ItemCount;
 }

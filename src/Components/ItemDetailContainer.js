@@ -1,4 +1,5 @@
 import BudinIngles from '../image/product/Budin ingles.jpeg';
+import ItemCount from './ItemCount';
 
 function ItemDetail({item}){
     return<> 
