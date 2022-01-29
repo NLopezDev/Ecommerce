@@ -1,13 +1,18 @@
 import macarons from './image/ok.png';
 import './App.css';
+APIS
+import NavBar from './Components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
 import components from './components';
+main
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      
+      <NavBar/>
+      <ItemListContainer/>
         <img src={macarons} className="App-logo" alt="macarons" />
 
         <h1>Nuestra historia</h1>
