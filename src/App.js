@@ -1,7 +1,10 @@
 import macarons from './image/ok.png';
 import './App.css';
+MAP
 import NavBar from './Components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
+import components from './components';
+main
 
 
 function App() {
