@@ -1,11 +1,15 @@
 import macarons from './image/ok.png';
 import './App.css';
+import './Components';
+import './ItemListContainer';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-      
+      <Components/>
+      <ItemListContainer/>
         <img src={macarons} className="App-logo" alt="macarons" />
 
         <h1>Nuestra historia</h1>
