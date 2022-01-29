@@ -1,5 +1,7 @@
 import macarons from './image/ok.png';
 import './App.css';
+import components from './components';
+
 
 function App() {
   return (
