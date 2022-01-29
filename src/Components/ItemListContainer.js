@@ -17,4 +17,4 @@ function LoginButton(props) {
   }
 <ItemList/>
 
-  export default ItemListContainer;
+  export default ItemList;

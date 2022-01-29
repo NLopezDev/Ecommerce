@@ -32,7 +32,7 @@ render(){
         <Common.TitleLabel text={this.state.name} estilo="color-texto-nav-rojo"></Common.TitleLabel>
         <Common.TitleLabel text="ADIOS" estilo="color-texto-nav-verde"></Common.TitleLabel>
         <Common.ButlonSubmit click={this.handleClick}></Common.ButlonSubmit>
-        </>)
+        </>);
 }
 
 export default ItemList;
