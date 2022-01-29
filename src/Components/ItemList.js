@@ -1,3 +1,5 @@
+import ItemListContainer from "./ItemListContainer"
+
 promiseMethod = ()=>{
     const aux = new Promise ((resolve,reject)=>{
         setTimeout(()=>{
@@ -32,3 +34,5 @@ render(){
         <Common.ButlonSubmit click={this.handleClick}></Common.ButlonSubmit>
         </>)
 }
+
+export default ItemList;
