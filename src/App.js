@@ -2,14 +2,23 @@ import macarons from './image/ok.png';
 import './App.css';
 import NavBar from './Components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
+import react from 'react';
+import {BrowserRouter,Swtich, Router} from 'react-router-dom';
 
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
       <header className="App-header">
+      <Swtich>
+      <Route exact path="/src/Components/NavBar.js">
       <NavBar/>
+      </Route>
+      <Route exact path="/src/Components/ItemListContainer.js">
       <ItemListContainer/>
+      </Route>
+      
         <img src={macarons} className="App-logo" alt="macarons" />
 
         <h1>Nuestra historia</h1>
@@ -25,8 +34,10 @@ function App() {
         >
           
         </a>
+        </Swtich>
       </header>
     </div>
+    </BrowserRouter>
   );
 }
 
