@@ -1,9 +1,12 @@
 import macarons from './image/ok.png';
 import './App.css';
+context
 import NavBar from './Components/NavBar';
 import ItemListContainer from './components/ItemListContainer';
 import react from 'react';
 import {BrowserRouter,Swtich, Router} from 'react-router-dom';
+import components from './components';
+main
 
 
 function App() {
